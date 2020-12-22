@@ -1,0 +1,381 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+html {
+    font-size: 20px;
+    font-family:'Indie Flower', cursive;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+/* Name display */
+.name{
+    margin-top: 100px;
+padding-left: 100px;
+    padding-top: 100px;
+   
+  
+    
+}
+
+
+
+
+
+/* backgound image for whole web page */
+h1{
+    color:rgb(11, 15, 9);
+    font-family: 'Indie Flower', cursive;
+}
+span{
+   
+color: maroon;
+}
+
+span1{
+    
+    bottom: 10px;
+    left: 10px;
+    background: rgba(168, 161, 212, 0.75);
+    padding: 4px 8px;
+    color: rgb(7, 0, 0);
+    margin: 0;
+    font: 14px Sans-Serif;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+span2{
+    color:black;
+}
+
+span3{
+ color: darkolivegreen;  
+}
+
+
+/* Hero design */
+
+#hero{
+    background-image: url('./images/bg3.jpg');
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 90;
+  background-size: cover;
+  
+
+   /* background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+ 
+
+}
+
+nav {
+	margin: 0px auto 0;
+
+	position: relative;;
+	width: 420px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 110px;
+}
+/* a:nth-child(5) {
+	width: 100px;
+} */
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 110px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+/* nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 400px;
+	background-color: #e67e22;
+} */
+/* end Hero design */
+
+
+
+/* About html */
+
+
+ #about{
+     background-image: url(./images/bg3.jpg);
+     background-size: cover;
+    
+ }
+  
+
+/* Profile pic */
+.circletag{
+    width: 200px;
+    height: 200px;
+    background-image: url(/css/images/file.enc.jpg);
+    background-size: cover;
+margin-left: auto;
+margin-right: auto;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+/* About me sentences */
+
+
+#ct{height:350px; width:900px;border:5px solid #f1c40f;margin:100px auto; text-align:center;position:relative;color:rgb(26, 11, 2);padding:15px;font-weight: bolder;}
+span11{
+  background:#1D1F20;
+  color:#f1c40f;
+  padding:0 10px;
+  font-size:20px;
+  position:relative; 
+  top:-28px;
+}
+.corner{height:30px;
+  width:30px;
+  border-radius:50%;
+  border:1px solid #fff;
+  transform:rotate(-45deg);  
+  position:absolute;
+  background:#1D1F20;
+}
+
+#left_top{
+  top:-16px;
+  left:-16px;
+  border-color:transparent transparent #f1c40f transparent;
+}
+#right_top{
+  top:-16px;
+  right:-16px;
+  border-color:transparent transparent transparent #f1c40f;
+}
+#left_bottom{
+  bottom:-16px;
+  left:-16px;
+  border-color:transparent #f1c40f transparent transparent ;
+}
+#right_bottom{
+  bottom:-16px;
+  right:-16px;
+  border-color:#f1c40f transparent transparent transparent;
+}
+p{padding-top:13px;font-size:18px}
+
+b{
+    color: rgb(87, 6, 73)
+}
+span10{
+    text-shadow: #e74c3c;
+    color: saddlebrown;
+}
+b1{
+    font-weight: 900;
+    color: darkslategrey;
+}
+
+
+/* Skils */
+.skills{
+    background-image: url(./images/bg3.jpg);
+    background-size: cover;
+   
+}
+
+#tech{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-family: 'Coiny', cursive;
+font-family: 'Wallpoet', cursive;
+font-size: 9000px;
+
+}
+p1{
+    margin-left: 90px;
+    font-family: 'Coiny', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Wallpoet', cursive;
+color: #e74c3c;
+}
+.container img{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -250px;
+}
+
+p2{
+    margin-right: 100px;
+    font-family: 'Coiny', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Wallpoet', cursive;
+    color: #34495e;
+}
+
+.image1 img{
+    width: 100px;
+    margin-left: 650px;
+    margin-top: -165px;
+}
+
+.image2 img{
+    width: 150px;
+    margin-left: 790px;
+    margin-top: -230px;
+}
+.image3 img{
+    width: 150px;
+    margin-left: 995px;
+    margin-top: -280px;
+}
+
+p3{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Coiny', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Wallpoet', cursive;
+    color: darkgreen;
+}
+
+.image4 img{
+    width: 150px;
+    margin-top: -35px;
+    margin-left: -70px;
+}
+
+.image5 img{
+    width: 150px;
+    margin-top: -125px;
+    margin-left: 100px;
+}
+
+.image6 img{
+    width: 150px;
+    margin-top: -185px;
+    margin-left: 270px;
+}
+
+.image7 img{
+    width: 150px;
+    margin-top: -45px;
+    margin-left: 100px;
+}
+
+
+
+p4{
+    margin-right: 90px;
+    margin-top: -280px;
+    font-family: 'Coiny', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Wallpoet', cursive;
+    color: #34495e;
+}
+.image8 img{
+    width: 150px;
+    height: 90px;
+    margin-left: 650px;
+    margin-top: -320px;
+}
+
+.image9 img{
+    width: 170px;
+    height: 90px;
+    margin-left: 820px;
+    margin-top: -380px;
+}
+
+.image10 img{
+    width: 170px;
+    height: 120px;
+    margin-left: 1000px;
+    margin-top: -440px;
+}
+
+p5{
+    margin-left: 560px;
+    margin-top: -2000px;
+    font-family: 'Coiny', cursive;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Wallpoet', cursive;
+    color: firebrick;
+}
+
+.image11 img{
+    width: 230px;
+    margin-left: 400px;
+    margin-top: -100px;
+
+
+}
+
+.image12 img{
+    width: 150px;
+    margin-left: 700px;
+    margin-top: -150px;
+}

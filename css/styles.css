@@ -379,3 +379,46 @@ p5{
     margin-left: 700px;
     margin-top: -150px;
 }
+
+/* About*/
+.contact{background-image: url(./images/bg3.jpg);
+background-size: cover;}
+
+
+#cont p{
+    font-weight: 300;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 50px;
+    margin-left: 440px;
+    color: darkgoldenrod;
+}
+
+#linkedin img{
+    width: 80px;
+   margin-top: 90px;
+    margin-left: 300px;
+}
+
+#facebook img{
+    width: 80px;
+    margin-left: 450px;
+    margin-top: -120px;
+}
+
+#gmail img{
+    width: 100px;
+    margin-left: 599px;
+    margin-top: -180px;
+}
+#twitter img{
+    width: 80px;
+    margin-left: 760px;
+    margin-top: -230px;
+}
+
+#Instagram img{
+    width: 80px;
+    margin-left: 910px;
+    margin-top: -290px;
+
+}

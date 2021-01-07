@@ -173,12 +173,13 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 
 /* About html */
 
-
- #about{
-     background-image: url(./images/bg3.jpg);
-     background-size: cover;
-    
- }
+#hero{
+    background-image: url('./images/bg3.jpg');
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 90;
+  background-size: cover;}
   
 
 /* Profile pic */
@@ -252,10 +253,13 @@ b1{
 
 
 /* Skils */
-.skills{
-    background-image: url(./images/bg3.jpg);
-    background-size: cover;
-   
+#hero{
+    background-image: url('./images/bg3.jpg');
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 90;
+  background-size: cover;
 }
 
 #tech{
@@ -393,8 +397,14 @@ p5{
 }
 
 /* About*/
-.contact{background-image: url(./images/bg3.jpg);
-background-size: cover;}
+#hero{
+    background-image: url('./images/bg3.jpg');
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 90;
+  background-size: cover;
+}
 
 
 #cont p{
